@@ -8,7 +8,7 @@ Large-scale stochastic actor-oriented model (LS-SAOM) implementation.
 # 1. Overview
 ## 1.1. SAOM
 
-* The SAOM is an empirical model to estimate how a network is dynamically generated (for an introductory survey, see *snijders papar*).
+* The SAOM is an empirical model to estimate how a network is dynamically generated (for a survey, see *snijders*).
 * Suppose that a network consists of firms and ties between the firms, and the ties change over time.
 * The SAOM assumes that the network evolution within a period is the accumulation of many micro-steps, at each of which a randomly selected firm can change its ties to others such that its objective function is maximized.
 * The objective function is assumed to depend on a firm's characteristics and local network structure.
@@ -27,9 +27,9 @@ Large-scale stochastic actor-oriented model (LS-SAOM) implementation.
 
 # 2. C++ codes
 
-* MySIENA.cpp is the main file, in which Step 1-3 are implemented.
-* constant.cpp is a file in which a set of parameters are given, including a set of constants (e.g., the number of firms) and initial parameters used in estimation.
-* Compiling and linking the two files together, we obtain the object file.
+* *MySIENA.cpp* is the main file, in which Step 1-3 are implemented.
+* *constant.cpp* is a file in which a set of parameters are given, including a set of constants (e.g., the number of firms) and initial parameters used in estimation.
+* Compiling and linking the two files together, we obtain the object file. *s_script.sh* file describes the compile options in my environment.
 * By executing the object file, we get an estimation output.
 
 # 3. Results
