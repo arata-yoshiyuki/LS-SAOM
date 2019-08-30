@@ -29,7 +29,7 @@ Large-scale stochastic actor-oriented model (LS-SAOM) implementation.
 
 * *MySIENA.cpp* is the main file, in which Step 1-3 are implemented.
 * *constant.cpp* is a file in which a set of parameters are given, including a set of constants (e.g., the number of firms) and initial parameters used in estimation.
-* Compiling and linking the two files together, we obtain the object file. *s_script.sh* file describes the compile options in my environment.
+* Compiling and linking the two files together, we obtain the object file. File *s_script.sh* describes the compile options in my environment.
 * By executing the object file, we get an estimation output.
 
 ## 3. Results
