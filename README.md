@@ -11,7 +11,7 @@ Large-scale stochastic actor-oriented model (LS-SAOM) implementation.
 * The SAOM is an empirical model to estimate how a network is dynamically generated (see Snijders (1996)).
 * Suppose that a network consists of firms and ties between the firms, and the ties change over time.
 * The SAOM assumes that the network evolution within a period is the accumulation of many micro-steps, at each of which a randomly selected firm can change its ties to others such that its objective function is maximized.
-* The objective function is assumed to depend on a firm's characteristics and local network structure.
+[](* The objective function is assumed to depend on a firm's characteristics and local network structure.)
 * An important feature is that the network evolution is sequential, i.e., a firm changes its ties given the *current* network, which is the consequence of changes that have occurred before.
 * Main parameters to be estimated is the ones that characterize the objective function.
 
